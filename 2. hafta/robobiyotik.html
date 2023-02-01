@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <style>
+  .fakeimg {
+    
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p{
+text-indent: 10px;
+
+}
+ 
+
+  </style>
+</head>
+<body>
+
+
+
+<div class="jumbotron text-center" style="margin-bottom: 0; background-image: url('https://images.hdqwalls.com/wallpapers/blue-agate-4k-l8.jpg'); ">
+<b> 
+    <h1 style="font-size: 70px; background-color: rgb(44, 57, 90); font-style: bold;  color: antiquewhite; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ROBOBİYOTİK</h1>
+</b>
+    <h4 style="color:azure; background-color: rgb(44, 57, 90);">Eğitim Çözümlerinizde Tek Platform!</h4>
+</div>
+
+<!--sm ve md ve lg farkına değin-->
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+  <a class="navbar-brand" href="#">Anasayfa</a>
+  
+  <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarSupportedContent"> 
+   <ul class="navbar-nav mr-auto">
+
+    
+    <li class="nav-item">
+      <a class="navbar-brand" href="#">Eğitimlerimiz</a>
+    </li>
+
+    <li class="nav-item"></li>
+     <a class="navbar-brand" href="#">Atolyelerimiz</a>
+    </li>
+
+    <li class="nav-item"></li>
+     <a class="navbar-brand" href="#">Hakkımızda</a>
+    </li>
+
+    <li class="nav-item"></li>
+     <a class="navbar-brand" href="#">İletişim</a>
+    </li>
+    
+
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial ;font-size: larger;">
+      Üyelik Oluştur</a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">İsim</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+           
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Soyisim</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+           
+          </div>
+        </div>
+       <br>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Mail</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+           
+          </div>
+        </div>
+        
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Tüm şartları kabul ediyorum.
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+  
+
+   </ul>
+
+   <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+  </div>
+
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<div class="containe-fluid" style="margin-top:30px; margin-left: 50px; ">
+  <div class="row" >
+    <div class="col-sm-4"  >
+      <h2 style="text-align: center; margin-right: 50px;">Hakkımızda</h2>
+      
+      
+     <center> <a><img class="img-fluid" src="AhmetKılıç.jpg" style="border-radius: 50%; margin-right: 50px;" alt="Robotik" height="200px" width="200px"  id="yuvarlak"/></a> </center> 
+      <br>
+       <br>
+      <p style="text-align: center; margin-right: 50px;">
+        Yıldız Teknik Üniversitesi Fen Bilgisi Öğretmenliği Bölümü 3. Sınıf Öğrencisi Ahmet Kılıç tarafından 2022 yılında temelleri atılan ‘Robobiyotik’ bugün 35’ten fazla öğretmene ve 900’ten fazla öğrenciye eğitim vemiş bulunmaktadır. 
+      </p>
+      <p style="text-align: center; margin-right: 50px;"> 
+        Türkiye’nin her bölgesinde yazılım ve robotik alanında yüzyüze eğitim veren şirketimiz zamandan ve mekândan bağımsız olarak siz değerli öğrenci ve öğretmenlerimize  online eğitim alma fırsatı da sunuyor. Her eğitiminde öğretmenlere yarattıkları etkiyi ve öğrencilerinin geleceğine yön verebilmeleri için ilham olmaları gerektiğini hatırlatan Robobiyotik bu yolla öğretim sürecinin verimliliğini artırmayı ve nitelikli hizmet içi eğitim programı oluşturmayı hedefliyor. Genç, dinamik ve vizyon sahibi kadromuz ile sağladığımız hizmetler aşağıdadır.
+      </p>
+
+       <br>
+       <br>
+        
+        
+        
+        
+        
+       
+        
+        
+        
+        
+       
+        
+        
+        
+        
+      <h4>Eğitimlerimiz:</h4>
+      <p>(Okul Öncesinden Lise Seviyesine Kadar Verilen Eğitimler)</p>
+      <ul class="nav nav-pills flex-column" style="margin-right: 50px; font-size: large;">
+        <li class="nav-item">
+          <a class="nav-link " href="robobiyotik.html">Doc Robot Eğitimi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="robobiyotik.html">MBot Eğitimi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="robobiyotik.html"> Makey Makey</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="robobiyotik.html">red-kit C</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="robobiyotik.html">red-Kit Mblock</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="robobiyotik.html">red-Kit Mblock</a>
+          </li>
+
+          <br>
+
+      </ul>
+      <h4>Öğretmenlere Özel Eğitimlerimiz:</h4>
+
+      <br>
+
+      <ul class="nav nav-pills flex-column" style="margin-right: 50px; font-size: large;">
+        <li class="nav-item">
+          <a class="nav-link " href="robobiyotik.html">Maker Öğretmen Sertifika Programı</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="robobiyotik.html">STEM Öğretmen Sertifika Programı</a>
+          </li>
+      </ul>
+
+      <hr class="d-sm-none">
+    </div>
+
+
+    <div class="col-sm-7" style="margin-right: 0">
+
+
+    
+      <h2>Neden Robotik Kodlama?</h2>
+
+    
+    
+    <a><img class="img-fluid" src="https://images.unsplash.com/photo-1559819614-81fea9efd090?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Robotik" style="border-radius: 10%;" height="300px" width="350px" align="right" class="yuvarlak"/></a>
+      
+      <p> 
+        Yazılım, somut komponentler ve donanımsal cihazlarla birleştiğinde hepimizin bildiği “robotlar” ortaya çıkmaktadır.
+      </p>
+      <p>
+        Robotik kodlama, programcının verdiği görevler tamamlanana kadar robotun hareketlerinin gözlemlenmesi ve şekillenmesi sürecini kapsamaktadır. Deneme yanılma, eleştirel ve yaratıcı düşünme gibi birçok süreci içinde bulunduran robotik kodlama, bireylerin araştırma ve geliştirme özelliklerini geliştirir.
+      </p>
+
+
+      <h5>Kodlama</h5>
+      <p>
+        Teknoloji çağının temel becerilerinden sayılan kodlama, bir robotun ya da bilgisayarın yazılan programları okuyup işleyebileceği yazılı talimatlardır. Donanımsal cihazlarla iletişim kurabilmek ve direktif verebilmek için kodlamaya ihtiyaç duyarız. Tüm bunların yanında kodlama, mantıksal düşünme becerilerini geliştirmektedir.
+      </p>
+          
+       <h5>Matematiksel Beceriler</h5> 
+        <p>Soyut içerikleri görselleştirerek matematiksel düşünme becerilerin gelişmesine katkıda bulunur. Ayrıca kodlama öğrenirken öğrenciler döngü, değişken, dizi, mod gibi birçok kavramı matematikle birleştirerek özümser.Bu sayede mantıksal ve sayısal yönleri güçlenir.</p>
+        
+        <h5>Algoritma</h5>
+          
+          <p>Algoritma kullanımı insan sezgilerini geliştirirken, mevcut/olası işlemlerin başlama ve bitiş zamanları sorularına cevap üretme hızını artırdığı ve tercihler sonucunda karşılaşılan problemlerle nasıl başa çıkılacağı konusunda kolaylık sağlamaktadır.</p>
+        
+      <br>
+      <br>
+      <br>
+
+      <h2>Robotik Kodlama Eğitimlerimiz</h2>
+    
+      
+      
+      
+     <br>
+      <p >Okul öncesinden üniversiteye kadar tüm yaş gruplarına uygun robotik kodlama eğitimleri veriyoruz. Hedefimiz: programlama, algoritma ve proje üretimi becerilerini anaokulundan itibaren kazandırmak.
+      </p>
+    <br>
+     <div>
+        <a><img  class="img-fluid" style="border-radius: 10%; margin-left: 30px;" src="https://img.freepik.com/premium-photo/asian-kid-boy-plugging-energy-signal-cable-sensor-chip-with-arduino-robot-car_143683-4859.jpg?w=2000" alt="Robotik" height="300px" width="350px" align="right" class="yuvarlak"/></a>
+     <h4 style="text-align: center;  "> Temel Seviye </h4>
+     <h6 style="text-align: left;  ">    Doc Robot:         </h6>
+      <p   style="text-align: left; text-indent:10px;">Doc Robot, çocukları Eğitici Robot Bilimine eğlenceli ve yaratıcı bir şekilde yaklaştıran ve robotlar hakkında ileri düzey bilgi edinmelerine sahip olan eğitici bir oyundur.          </p>
+     <h6 style="text-align: left;  ">    MBot:          </h6>
+      <p style="text-align: left; text-indent:10px; ">  Blok tabanlı ve Türkçe bir programlama ortamında öğrencilerimiz kendi robot projelerini geliştiriyor.             </p>
+
+      
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+       <a><img class="img-fluid" style="border-radius: 10%; margin-right: 30px;" src="https://cdn.iste.org/www-root/2020-09/Scratch%20in%20use.jpg?VersionId=w415otGxnPp9aNnrPCj1B.Y_N0LVuCFh" alt="Robotik" height="300px" width="350px" align="left" class="yuvarlak"/></a>
+      
+       <h4 style="text-align: center;">  Orta Seviye        </h4>
+      <h6 style="text-align: left; ">   Scratch:          </h6>
+      <p style="text-align: left; text-indent:10px; ">  Yabancı terimlerle öğrencilerde karmaşaya yol açmadan tamamen blok tabanlı bir programlama dili ile öğrencilerimiz kendi oyun ve animasyonlarını programlarken eğleniyorlar.      </p>
+      <h6 style="text-align: left; ">     Makey Makey:          </h6>
+       <p style="text-align: left; text-indent:10px;">    Makey Makey, bilgisayarınızın neredeyse tüm cisimleri klavye ve tuşları olarak algılamasına yarayan bir cihazdır.   </p>
+
+       <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+       <a><img class="img-fluid" style="border-radius: 10%; margin-left: 30px;  " src="https://www.datocms-assets.com/32427/1603382018-aectcgo-product3students01.jpg?auto=format&w=480" alt="Robotik" height="300px" width="350px" align="right" class="yuvarlak"/></a>
+      <h4 style="text-align: center;">    İleri Seviye      </h4>
+      <h6 style="text-align: left;">  red-kit C:        </h6>
+      <p style="text-align: left; text-indent:10px;">  4-12. sınıflar arası öğrencilere Arduino C programlama dili ile verdiğimiz eğitimler sayesinde öğrenciler analitik düşünme yeteneği kazanıyor ve günlük hayatı kolaylaştıran projeler geliştiriyorlar. </p>
+      <h6 style="text-align: left;">    red-Kit Mblock:          </h6>
+       <p style="text-align: left; text-indent:10px;">      Blok tabanlı ve Türkçe bir programlama ortamında Arduino programlayarak öğrencilerimiz kendi robotunu tasarlayabiliyor.        </p>
+
+
+
+     </div>
+    
+    
+    
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom: 0; margin-top: 100px; max-height: 100px; padding-bottom: 200px; background-color: rgba(1, 25, 204, 0.975);">
+  
+
+<a class='blur' href='https://github.com/ahmetkkilic/' rel='nofollow' target='_blank'><img alt='feedburner' style="border-radius: 50%;" height='40' src='https://w7.pngwing.com/pngs/670/396/png-transparent-computer-icons-github-icon-design-logo-github-cat-like-mammal-carnivoran-logo-thumbnail.png' width='40'/></a>
+<a class='blur' href='https://www.linkedin.com/in/ahmetkılıç' rel='nofollow' target='_blank'><img alt='linkedin'  height='41' src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png' width='40'/></a>
+<a class='blur' href='https://www.instagram.com/ahmet.kkilic/' rel='nofollow' target='_blank'><img alt='linkedin' height='41' src='https://icon-library.com/images/instagram-circle-icon-png/instagram-circle-icon-png-16.jpg' width='40' /></a>
+<a class='blur' href='https://www.youtube.com/@ahmet.kkilic' rel='nofollow' target='_blank'><img alt='youtube'  height='40' src='https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-512.png' width='40'/></a>
+<p style="color:beige; font-style: initial; font-size: x-large;"> Yıldız Teknopark, Yıldız Teknik Üniversitesi, Davutpaşa Kampüsü, 34220 Esenler/İstanbul</p>
+
+<a href="mailto:ahmet.kilic1@std.yildiz.edu.tr">
+    <span class="icon icon-mail"></span><span class="text" style="color:rgb(255, 255, 255);font: bold;font-size: large;">  info@robobiyotik.com.tr</span>
+</a>
+
+
+<p style="color:bisque; font-style: bold; " > Copyright © 2023 Tüm Hakları Saklıdır. </p>
+
+<br>
+</div>
+
+
+</body>
+</html>
